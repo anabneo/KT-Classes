@@ -1,18 +1,18 @@
 class Cachorro {
 
-    var cor: String = ""
-    var tamanho: String = ""
-    var temperamento: String = ""
+    private var cor: String = ""
+    private var tamanho: String = ""
+    private var temperamento: String = ""
 
-    fun latir() {
-
-    }
-
-    fun correr() {
+    private fun latir() {
 
     }
 
-    fun morder() {
+    private fun correr() {
+
+    }
+
+    private fun morder() {
 
     }
 }
