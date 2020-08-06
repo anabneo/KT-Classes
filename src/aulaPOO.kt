@@ -1,48 +1,42 @@
-class Garrafa {
+class Sentimento {
 
-    var tipo: String = ""
-    var conteudo: Boolean = false
-    var tipoConteudo: String = ""
-    var cor: String = ""
-    var vazio: Boolean = false
+    var nome: String = ""
+    var intensidade: String = ""
+    var motivo: String = ""
 
-    fun encher() {
-        this.conteudo = true
-        this.vazio = false
+    fun ficarNervoso() {
+        this.nome = "Nervoso"
+        this.intensidade = "10"
     }
 
-    fun esvaziar() {
-        this.conteudo = false
-        this.vazio = true
+    fun ficarFeliz() {
+        this.nome = "Feliz"
+        this.intensidade = "8"
     }
+
 
     fun status() {
-        println("TIPO: " + this.tipo)
-        println("TEM CONTEÚDO: " + this.conteudo)
-        println("TIPO CONTEÚDO: " + this.tipoConteudo)
-        println("COR: " + this.cor)
-        println("ESTÁ VAZIO: " + this.vazio)
+        println("NOME: " + this.nome)
+        println("INTENSIDADE: " + this.intensidade)
+        println("MOTIVO: " + this.motivo)
         println("-------------------------- ++ --------------------------")
     }
 }
 
 fun main() {
 
-    val cocaCola = Garrafa()
-    cocaCola.tipo = "PET"
-    cocaCola.conteudo
-    cocaCola.tipoConteudo = "Refrigerante"
-    cocaCola.cor = "Marrom Escuro"
-    cocaCola.vazio
+    val pessoaFeelings = Sentimento()
+    pessoaFeelings.nome = "Normal"
+    pessoaFeelings.intensidade = "4"
 
-    cocaCola.status()
+    pessoaFeelings.status()
 
-    cocaCola.encher()
+    pessoaFeelings.ficarFeliz()
 
-    cocaCola.status()
+    pessoaFeelings.status()
 
-    cocaCola.esvaziar()
+    pessoaFeelings.ficarNervoso()
 
-    cocaCola.status()
+    pessoaFeelings.status()
 
 }
