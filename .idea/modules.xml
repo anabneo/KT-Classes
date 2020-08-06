@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AulaVisibilidade/AulaVisibilidade.iml" filepath="$PROJECT_DIR$/AulaVisibilidade/AulaVisibilidade.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExercicioAulaPOO.iml" filepath="$PROJECT_DIR$/ExercicioAulaPOO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/visibilidade/visibilidade.iml" filepath="$PROJECT_DIR$/visibilidade/visibilidade.iml" />
     </modules>
   </component>
 </project>
